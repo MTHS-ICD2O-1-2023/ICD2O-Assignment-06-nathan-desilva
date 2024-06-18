@@ -22,10 +22,10 @@
 }
 
 body {
-  background-color: rgb(0, 128, 255);
+  background-color: rgb(101, 198, 11);
 }
 
-.donut {
-  float: right;
-  width: 500px;
+.btn {
+  margin-left: auto;
+  margin-right: auto;
 }
