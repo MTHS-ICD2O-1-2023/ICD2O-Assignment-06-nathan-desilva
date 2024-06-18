@@ -13,7 +13,7 @@
 async function myDuck() {
 
   try {
-    const resultJSON = await fetch("https://random-d.uk/api")
+    const resultJSON = await get("https://random-d.uk/api")
     const jsonData = await resultJSON.json()
     
     const firstDataSet = jsonData.message
