@@ -18,7 +18,7 @@ async function myDuck() {
     
     const firstDataSet = jsonData.message
 
-    document.getElementById("dog-image").src = firstDataSet
+    document.getElementById("duck").src = firstDataSet
   } catch (error) {
     console.error(error)
   }
