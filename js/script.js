@@ -7,28 +7,18 @@
 "use strict"
 
 /**
- * Check service worker.
- */
-if (navigator.serviceWorker) {
-  navigator.serviceWorker.register("/ICS2O-Assignment-06-nathan-desilva/sw.js", {
-    scope: "/ICD2O-Assignment-06-nathan-desilva",
-  })
-}
-
-/**
  * This function displays random ducks
  */
-const getDuck = async (URLAddress) => {
+async function myDuck() {
+
   try {
-    const result = await fetch(URLAddress)
-    const data = await result.json()
-    console.log(data)
-    document.getElementById("duck").innerHTML = data.setup + "<br><br>" + data.punchline
-  } catch (err) {
-    console.log(err)
+    const resultJSON = await fetch("https://random-d.uk/api/images/61.jpg")
+    const jsonData = await resultJSON.json()
+    
+    const firstDataSet = jsonData.message
+
+    document.getElementById("dog-image").src = firstDataSet
+  } catch (error) {
+    console.error(error)
   }
 }
-
-getDuck(
-  "https://random-d.uk/api/images/61.jpg"
-)
