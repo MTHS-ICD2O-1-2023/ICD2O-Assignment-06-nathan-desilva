@@ -9,6 +9,7 @@
 /**
  * This function displays random ducks
  */
+
 async function myDuck() {
 
   try {
