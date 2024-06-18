@@ -13,9 +13,8 @@
 async function myDuck() {
 
   try {
-    const resultJSON = await get("https://random-d.uk/api")
+    const resultJSON = await fetch("https://random-d.uk/api")
     const jsonData = await resultJSON.json()
-    
     const firstDataSet = jsonData.message
 
     document.getElementById("duck").src = firstDataSet
