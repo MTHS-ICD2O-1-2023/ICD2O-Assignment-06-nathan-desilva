@@ -1,0 +1,28 @@
+<mxfile host="65bd71144e">
+    <diagram id="pIaEtrtLPv3HG8r1JEND" name="Page-1">
+        <mxGraphModel dx="702" dy="442" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#F0F0F0;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="80" width="460" height="290" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Random Dog Image" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;fontColor=#ffffff;strokeColor=#A50040;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="80" width="460" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="&lt;font color=&quot;#000000&quot;&gt;Click the button to get a random dog&amp;nbsp;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="130" width="220" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="GET A RANDOM DOG IMAGE" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="160" width="170" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="200" width="170" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="(random dog image)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="250" width="130" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
